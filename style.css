@@ -141,6 +141,27 @@ main aside {
   inset-block: 0;
   inset-inline-end: 0;
 }
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.project-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
+}
+
 
 main aside .social-media {
   height: 100%;
