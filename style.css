@@ -136,16 +136,7 @@ main .content .content-image img {
   height: auto;
 }
 
-main aside {
-  position: fixed;
-  inset-block: 0;
-  inset-inline-end: 0;
-}
-.projects-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
-}
+
 
 .project-item img {
   width: 100%;
