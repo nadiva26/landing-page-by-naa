@@ -158,8 +158,8 @@ main .content .content-image img {
   width: 100%;
 }
 
-.project-item {
-  max-width: 300px; /* Optional: limit the max width of each project item */
+.project-item img{
+  max-width: 80px; /* Optional: limit the max width of each project item */
   width: 100%;
   text-align: center;
 }
