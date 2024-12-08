@@ -138,20 +138,32 @@ main .content .content-image img {
 
 
 
-.project-item img {
-  width: 80%;
-  height: auto;
-  border-radius: 10px;
+.projects {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  margin-top: 2rem; /* Optional margin for spacing */
 }
 
-.project-item a {
-  color: #007bff;
-  text-decoration: none;
+.projects .content-description {
+  text-align: center; /* Center text inside the project description */
+  width: 100%; /* Ensure the content takes full width of the container */
 }
 
-.project-item a:hover {
-  text-decoration: underline;
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap; /* Allows multiple project items to wrap into rows if needed */
+  width: 100%;
 }
+
+.project-item {
+  max-width: 300px; /* Optional: limit the max width of each project item */
+  width: 100%;
+  text-align: center;
+}
+
 
 
 main aside .social-media {
